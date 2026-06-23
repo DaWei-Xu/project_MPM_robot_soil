@@ -1,0 +1,45 @@
+LHS design (30 samples) written to /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results_omega02/lhs_design.csv
+phi range : 20.0–42.0 deg
+c range   : 0.0–15.0 kPa
+Workers   : 7   omega = 0.2 rad/s
+
+Running 30 simulations ...
+
+  [001] TIMEOUT phi=21.57° c=4151 Pa
+  [000] TIMEOUT phi=34.83° c=10281 Pa
+  [006] TIMEOUT phi=22.46° c=7589 Pa
+  [005] TIMEOUT phi=23.39° c=6537 Pa
+  [002] TIMEOUT phi=32.40° c=1512 Pa
+  [003] TIMEOUT phi=28.24° c=2607 Pa
+  [004] TIMEOUT phi=31.64° c=14775 Pa
+  [007] TIMEOUT phi=26.27° c=10886 Pa
+  [010] TIMEOUT phi=26.78° c=11323 Pa
+  [012] TIMEOUT phi=20.90° c=2403 Pa
+  [008] TIMEOUT phi=23.99° c=8468 Pa
+  [013] TIMEOUT phi=32.86° c=12478 Pa
+  [011] TIMEOUT phi=36.15° c=1053 Pa
+  [009] TIMEOUT phi=20.13° c=12684 Pa
+  [014] TIMEOUT phi=41.89° c=3158 Pa
+  [015] TIMEOUT phi=40.72° c=13516 Pa
+  [016] TIMEOUT phi=35.89° c=5815 Pa
+  [017] TIMEOUT phi=29.19° c=8905 Pa
+  [020] TIMEOUT phi=27.75° c=7084 Pa
+  [018] TIMEOUT phi=40.44° c=11762 Pa
+  [019] TIMEOUT phi=38.90° c=6165 Pa
+  [021] TIMEOUT phi=39.29° c=344 Pa
+  [022] TIMEOUT phi=29.66° c=4598 Pa
+  [025] TIMEOUT phi=33.79° c=13496 Pa
+  [024] TIMEOUT phi=25.37° c=9430 Pa
+  [026] TIMEOUT phi=34.09° c=3668 Pa
+  [027] TIMEOUT phi=30.48° c=9610 Pa
+  [023] TIMEOUT phi=38.05° c=5356 Pa
+  [029] done     phi=25.03° c=14.44 kPa    flat_Fz_peak=21.6636 N
+  [028] TIMEOUT phi=37.26° c=716 Pa
+
+────────────────────────────────────────────────────────────
+Completed: 1/30 samples  (29 failed/skipped)
+Results  : /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results_omega02/lhs_samples.csv
+
+Columns  : ['sample_id', 'phi_deg', 'c_Pa', 'E_Pa', 'flat_Fz_peak_N', 'flat_Fz_peak_ang_deg', 'flat_Fx_peak_N', 'flat_Fz_integral_Ndeg', 'cleg_Fz_peak_N', 'cleg_Fz_peak_ang_deg', 'cleg_Fx_peak_N', 'cleg_Fz_integral_Ndeg', 'rcleg_Fz_peak_N', 'rcleg_Fz_peak_ang_deg', 'rcleg_Fx_peak_N', 'rcleg_Fz_integral_Ndeg']
+
+Next step: python3 inverse_gp.py --data /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results_omega02/lhs_samples.csv

@@ -1,0 +1,25 @@
+LHS design (10 samples) written to /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results/lhs_design.csv
+phi range : 20.0–42.0 deg
+c range   : 0.0–15.0 kPa
+Workers   : 1   omega = 5.0 rad/s
+
+Running 10 simulations ...
+
+  [000] done     phi=24.90° c=9.84 kPa    flat_Fz_peak=84.7400 N
+  [001] done     phi=40.11° c=4.95 kPa    flat_Fz_peak=80.3818 N
+  [002] done     phi=21.99° c=12.04 kPa    flat_Fz_peak=85.6453 N
+  [003] done     phi=38.13° c=3.32 kPa    flat_Fz_peak=77.3500 N
+  [004] done     phi=30.72° c=14.32 kPa    flat_Fz_peak=87.7585 N
+  [005] done     phi=23.58° c=7.61 kPa    flat_Fz_peak=83.3364 N
+  [006] done     phi=33.98° c=1.77 kPa    flat_Fz_peak=70.8497 N
+  [007] done     phi=36.62° c=11.66 kPa    flat_Fz_peak=85.2296 N
+  [008] done     phi=27.58° c=7.40 kPa    flat_Fz_peak=83.0239 N
+  [009] done     phi=31.38° c=0.55 kPa    flat_Fz_peak=62.6309 N
+
+────────────────────────────────────────────────────────────
+Completed: 10/10 samples  (0 failed/skipped)
+Results  : /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results/lhs_samples.csv
+
+Columns  : ['sample_id', 'phi_deg', 'c_Pa', 'E_Pa', 'flat_Fz_peak_N', 'flat_Fz_peak_ang_deg', 'flat_Fx_peak_N', 'flat_Fz_integral_Ndeg', 'cleg_Fz_peak_N', 'cleg_Fz_peak_ang_deg', 'cleg_Fx_peak_N', 'cleg_Fz_integral_Ndeg', 'rcleg_Fz_peak_N', 'rcleg_Fz_peak_ang_deg', 'rcleg_Fx_peak_N', 'rcleg_Fz_integral_Ndeg']
+
+Next step: python3 inverse_gp.py --data /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results/lhs_samples.csv

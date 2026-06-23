@@ -1,0 +1,385 @@
+subplot,sand,leg_type,force,line_type,theta,F_N
+A,Yuma sand,C-leg,Fz,Exp,-1.571,0.0
+A,Yuma sand,C-leg,Fz,Exp,-1.309,2.5
+A,Yuma sand,C-leg,Fz,Exp,-1.047,7.0
+A,Yuma sand,C-leg,Fz,Exp,-0.785,12.0
+A,Yuma sand,C-leg,Fz,Exp,-0.524,15.0
+A,Yuma sand,C-leg,Fz,Exp,-0.262,14.5
+A,Yuma sand,C-leg,Fz,Exp,0.0,10.0
+A,Yuma sand,C-leg,Fz,Exp,0.262,5.0
+A,Yuma sand,C-leg,Fz,Exp,0.524,1.5
+A,Yuma sand,C-leg,Fz,Exp,0.785,0.0
+A,Yuma sand,C-leg,Fz,Scaling,-1.571,0.0
+A,Yuma sand,C-leg,Fz,Scaling,-1.309,4.0
+A,Yuma sand,C-leg,Fz,Scaling,-1.047,11.0
+A,Yuma sand,C-leg,Fz,Scaling,-0.785,18.0
+A,Yuma sand,C-leg,Fz,Scaling,-0.524,22.0
+A,Yuma sand,C-leg,Fz,Scaling,-0.262,20.0
+A,Yuma sand,C-leg,Fz,Scaling,0.0,13.0
+A,Yuma sand,C-leg,Fz,Scaling,0.262,5.0
+A,Yuma sand,C-leg,Fz,Scaling,0.524,1.0
+A,Yuma sand,C-leg,Fz,Scaling,0.785,0.0
+A,Yuma sand,C-leg,Fx,Exp,-1.571,0.0
+A,Yuma sand,C-leg,Fx,Exp,-1.309,0.5
+A,Yuma sand,C-leg,Fx,Exp,-1.047,2.0
+A,Yuma sand,C-leg,Fx,Exp,-0.785,5.5
+A,Yuma sand,C-leg,Fx,Exp,-0.524,9.0
+A,Yuma sand,C-leg,Fx,Exp,-0.262,10.5
+A,Yuma sand,C-leg,Fx,Exp,0.0,9.5
+A,Yuma sand,C-leg,Fx,Exp,0.262,5.5
+A,Yuma sand,C-leg,Fx,Exp,0.524,1.5
+A,Yuma sand,C-leg,Fx,Exp,0.785,0.0
+A,Yuma sand,C-leg,Fx,Scaling,-1.571,0.0
+A,Yuma sand,C-leg,Fx,Scaling,-1.309,1.0
+A,Yuma sand,C-leg,Fx,Scaling,-1.047,3.5
+A,Yuma sand,C-leg,Fx,Scaling,-0.785,7.0
+A,Yuma sand,C-leg,Fx,Scaling,-0.524,10.0
+A,Yuma sand,C-leg,Fx,Scaling,-0.262,11.0
+A,Yuma sand,C-leg,Fx,Scaling,0.0,9.5
+A,Yuma sand,C-leg,Fx,Scaling,0.262,5.0
+A,Yuma sand,C-leg,Fx,Scaling,0.524,1.5
+A,Yuma sand,C-leg,Fx,Scaling,0.785,0.0
+B,Yuma sand,Flat leg,Fz,Exp,-1.571,0.0
+B,Yuma sand,Flat leg,Fz,Exp,-1.309,1.0
+B,Yuma sand,Flat leg,Fz,Exp,-1.047,3.5
+B,Yuma sand,Flat leg,Fz,Exp,-0.785,6.5
+B,Yuma sand,Flat leg,Fz,Exp,-0.524,8.5
+B,Yuma sand,Flat leg,Fz,Exp,-0.262,8.0
+B,Yuma sand,Flat leg,Fz,Exp,0.0,5.0
+B,Yuma sand,Flat leg,Fz,Exp,0.262,1.5
+B,Yuma sand,Flat leg,Fz,Exp,0.524,-0.5
+B,Yuma sand,Flat leg,Fz,Exp,0.785,0.0
+B,Yuma sand,Flat leg,Fz,Scaling,-1.571,0.0
+B,Yuma sand,Flat leg,Fz,Scaling,-1.309,1.5
+B,Yuma sand,Flat leg,Fz,Scaling,-1.047,5.0
+B,Yuma sand,Flat leg,Fz,Scaling,-0.785,8.0
+B,Yuma sand,Flat leg,Fz,Scaling,-0.524,9.0
+B,Yuma sand,Flat leg,Fz,Scaling,-0.262,8.0
+B,Yuma sand,Flat leg,Fz,Scaling,0.0,5.5
+B,Yuma sand,Flat leg,Fz,Scaling,0.262,2.0
+B,Yuma sand,Flat leg,Fz,Scaling,0.524,-0.5
+B,Yuma sand,Flat leg,Fz,Scaling,0.785,0.0
+B,Yuma sand,Flat leg,Fx,Exp,-1.571,0.0
+B,Yuma sand,Flat leg,Fx,Exp,-1.309,0.5
+B,Yuma sand,Flat leg,Fx,Exp,-1.047,2.0
+B,Yuma sand,Flat leg,Fx,Exp,-0.785,5.0
+B,Yuma sand,Flat leg,Fx,Exp,-0.524,8.5
+B,Yuma sand,Flat leg,Fx,Exp,-0.262,9.0
+B,Yuma sand,Flat leg,Fx,Exp,0.0,7.0
+B,Yuma sand,Flat leg,Fx,Exp,0.262,3.0
+B,Yuma sand,Flat leg,Fx,Exp,0.524,0.0
+B,Yuma sand,Flat leg,Fx,Exp,0.785,0.0
+B,Yuma sand,Flat leg,Fx,Scaling,-1.571,0.0
+B,Yuma sand,Flat leg,Fx,Scaling,-1.309,1.0
+B,Yuma sand,Flat leg,Fx,Scaling,-1.047,3.0
+B,Yuma sand,Flat leg,Fx,Scaling,-0.785,6.5
+B,Yuma sand,Flat leg,Fx,Scaling,-0.524,8.5
+B,Yuma sand,Flat leg,Fx,Scaling,-0.262,9.0
+B,Yuma sand,Flat leg,Fx,Scaling,0.0,7.0
+B,Yuma sand,Flat leg,Fx,Scaling,0.262,3.0
+B,Yuma sand,Flat leg,Fx,Scaling,0.524,0.0
+B,Yuma sand,Flat leg,Fx,Scaling,0.785,0.0
+C,Yuma sand,Reversed C-leg,Fz,Exp,-1.571,0.0
+C,Yuma sand,Reversed C-leg,Fz,Exp,-1.309,0.0
+C,Yuma sand,Reversed C-leg,Fz,Exp,-1.047,0.5
+C,Yuma sand,Reversed C-leg,Fz,Exp,-0.785,2.0
+C,Yuma sand,Reversed C-leg,Fz,Exp,-0.524,4.0
+C,Yuma sand,Reversed C-leg,Fz,Exp,-0.262,5.5
+C,Yuma sand,Reversed C-leg,Fz,Exp,0.0,5.5
+C,Yuma sand,Reversed C-leg,Fz,Exp,0.262,4.0
+C,Yuma sand,Reversed C-leg,Fz,Exp,0.524,1.5
+C,Yuma sand,Reversed C-leg,Fz,Exp,0.785,-0.5
+C,Yuma sand,Reversed C-leg,Fz,Exp,1.047,-1.0
+C,Yuma sand,Reversed C-leg,Fz,Exp,1.309,0.0
+C,Yuma sand,Reversed C-leg,Fz,Scaling,-1.571,0.0
+C,Yuma sand,Reversed C-leg,Fz,Scaling,-1.309,0.5
+C,Yuma sand,Reversed C-leg,Fz,Scaling,-1.047,2.0
+C,Yuma sand,Reversed C-leg,Fz,Scaling,-0.785,5.0
+C,Yuma sand,Reversed C-leg,Fz,Scaling,-0.524,7.5
+C,Yuma sand,Reversed C-leg,Fz,Scaling,-0.262,8.0
+C,Yuma sand,Reversed C-leg,Fz,Scaling,0.0,7.0
+C,Yuma sand,Reversed C-leg,Fz,Scaling,0.262,4.5
+C,Yuma sand,Reversed C-leg,Fz,Scaling,0.524,1.5
+C,Yuma sand,Reversed C-leg,Fz,Scaling,0.785,-0.5
+C,Yuma sand,Reversed C-leg,Fz,Scaling,1.047,-1.0
+C,Yuma sand,Reversed C-leg,Fz,Scaling,1.309,0.0
+C,Yuma sand,Reversed C-leg,Fx,Exp,-1.571,0.0
+C,Yuma sand,Reversed C-leg,Fx,Exp,-1.309,0.0
+C,Yuma sand,Reversed C-leg,Fx,Exp,-1.047,0.0
+C,Yuma sand,Reversed C-leg,Fx,Exp,-0.785,0.5
+C,Yuma sand,Reversed C-leg,Fx,Exp,-0.524,2.0
+C,Yuma sand,Reversed C-leg,Fx,Exp,-0.262,4.0
+C,Yuma sand,Reversed C-leg,Fx,Exp,0.0,5.0
+C,Yuma sand,Reversed C-leg,Fx,Exp,0.262,5.5
+C,Yuma sand,Reversed C-leg,Fx,Exp,0.524,4.5
+C,Yuma sand,Reversed C-leg,Fx,Exp,0.785,2.5
+C,Yuma sand,Reversed C-leg,Fx,Exp,1.047,0.5
+C,Yuma sand,Reversed C-leg,Fx,Exp,1.309,0.0
+C,Yuma sand,Reversed C-leg,Fx,Scaling,-1.571,0.0
+C,Yuma sand,Reversed C-leg,Fx,Scaling,-1.309,0.0
+C,Yuma sand,Reversed C-leg,Fx,Scaling,-1.047,0.5
+C,Yuma sand,Reversed C-leg,Fx,Scaling,-0.785,1.5
+C,Yuma sand,Reversed C-leg,Fx,Scaling,-0.524,3.5
+C,Yuma sand,Reversed C-leg,Fx,Scaling,-0.262,5.5
+C,Yuma sand,Reversed C-leg,Fx,Scaling,0.0,6.5
+C,Yuma sand,Reversed C-leg,Fx,Scaling,0.262,6.0
+C,Yuma sand,Reversed C-leg,Fx,Scaling,0.524,4.0
+C,Yuma sand,Reversed C-leg,Fx,Scaling,0.785,2.0
+C,Yuma sand,Reversed C-leg,Fx,Scaling,1.047,0.5
+C,Yuma sand,Reversed C-leg,Fx,Scaling,1.309,0.0
+D,29 Palms sand,C-leg,Fz,Exp,-1.571,0.0
+D,29 Palms sand,C-leg,Fz,Exp,-1.309,3.0
+D,29 Palms sand,C-leg,Fz,Exp,-1.047,9.0
+D,29 Palms sand,C-leg,Fz,Exp,-0.785,16.0
+D,29 Palms sand,C-leg,Fz,Exp,-0.524,20.0
+D,29 Palms sand,C-leg,Fz,Exp,-0.262,19.5
+D,29 Palms sand,C-leg,Fz,Exp,0.0,13.0
+D,29 Palms sand,C-leg,Fz,Exp,0.262,6.0
+D,29 Palms sand,C-leg,Fz,Exp,0.524,1.5
+D,29 Palms sand,C-leg,Fz,Exp,0.785,0.0
+D,29 Palms sand,C-leg,Fz,Scaling,-1.571,0.0
+D,29 Palms sand,C-leg,Fz,Scaling,-1.309,5.0
+D,29 Palms sand,C-leg,Fz,Scaling,-1.047,14.0
+D,29 Palms sand,C-leg,Fz,Scaling,-0.785,22.0
+D,29 Palms sand,C-leg,Fz,Scaling,-0.524,27.0
+D,29 Palms sand,C-leg,Fz,Scaling,-0.262,25.0
+D,29 Palms sand,C-leg,Fz,Scaling,0.0,16.0
+D,29 Palms sand,C-leg,Fz,Scaling,0.262,6.5
+D,29 Palms sand,C-leg,Fz,Scaling,0.524,1.5
+D,29 Palms sand,C-leg,Fz,Scaling,0.785,0.0
+D,29 Palms sand,C-leg,Fx,Exp,-1.571,0.0
+D,29 Palms sand,C-leg,Fx,Exp,-1.309,0.5
+D,29 Palms sand,C-leg,Fx,Exp,-1.047,3.0
+D,29 Palms sand,C-leg,Fx,Exp,-0.785,7.0
+D,29 Palms sand,C-leg,Fx,Exp,-0.524,11.5
+D,29 Palms sand,C-leg,Fx,Exp,-0.262,14.0
+D,29 Palms sand,C-leg,Fx,Exp,0.0,13.0
+D,29 Palms sand,C-leg,Fx,Exp,0.262,7.5
+D,29 Palms sand,C-leg,Fx,Exp,0.524,2.0
+D,29 Palms sand,C-leg,Fx,Exp,0.785,0.0
+D,29 Palms sand,C-leg,Fx,Scaling,-1.571,0.0
+D,29 Palms sand,C-leg,Fx,Scaling,-1.309,1.5
+D,29 Palms sand,C-leg,Fx,Scaling,-1.047,5.0
+D,29 Palms sand,C-leg,Fx,Scaling,-0.785,9.5
+D,29 Palms sand,C-leg,Fx,Scaling,-0.524,13.5
+D,29 Palms sand,C-leg,Fx,Scaling,-0.262,15.0
+D,29 Palms sand,C-leg,Fx,Scaling,0.0,13.0
+D,29 Palms sand,C-leg,Fx,Scaling,0.262,7.0
+D,29 Palms sand,C-leg,Fx,Scaling,0.524,2.0
+D,29 Palms sand,C-leg,Fx,Scaling,0.785,0.0
+E,29 Palms sand,Flat leg,Fz,Exp,-1.571,0.0
+E,29 Palms sand,Flat leg,Fz,Exp,-1.309,1.5
+E,29 Palms sand,Flat leg,Fz,Exp,-1.047,5.0
+E,29 Palms sand,Flat leg,Fz,Exp,-0.785,8.5
+E,29 Palms sand,Flat leg,Fz,Exp,-0.524,10.0
+E,29 Palms sand,Flat leg,Fz,Exp,-0.262,9.5
+E,29 Palms sand,Flat leg,Fz,Exp,0.0,7.0
+E,29 Palms sand,Flat leg,Fz,Exp,0.262,2.5
+E,29 Palms sand,Flat leg,Fz,Exp,0.524,-0.5
+E,29 Palms sand,Flat leg,Fz,Exp,0.785,0.0
+E,29 Palms sand,Flat leg,Fz,Scaling,-1.571,0.0
+E,29 Palms sand,Flat leg,Fz,Scaling,-1.309,2.0
+E,29 Palms sand,Flat leg,Fz,Scaling,-1.047,7.0
+E,29 Palms sand,Flat leg,Fz,Scaling,-0.785,12.0
+E,29 Palms sand,Flat leg,Fz,Scaling,-0.524,14.0
+E,29 Palms sand,Flat leg,Fz,Scaling,-0.262,13.0
+E,29 Palms sand,Flat leg,Fz,Scaling,0.0,8.5
+E,29 Palms sand,Flat leg,Fz,Scaling,0.262,3.0
+E,29 Palms sand,Flat leg,Fz,Scaling,0.524,-0.5
+E,29 Palms sand,Flat leg,Fz,Scaling,0.785,0.0
+E,29 Palms sand,Flat leg,Fx,Exp,-1.571,0.0
+E,29 Palms sand,Flat leg,Fx,Exp,-1.309,0.5
+E,29 Palms sand,Flat leg,Fx,Exp,-1.047,2.5
+E,29 Palms sand,Flat leg,Fx,Exp,-0.785,6.0
+E,29 Palms sand,Flat leg,Fx,Exp,-0.524,9.5
+E,29 Palms sand,Flat leg,Fx,Exp,-0.262,11.0
+E,29 Palms sand,Flat leg,Fx,Exp,0.0,10.0
+E,29 Palms sand,Flat leg,Fx,Exp,0.262,5.5
+E,29 Palms sand,Flat leg,Fx,Exp,0.524,1.0
+E,29 Palms sand,Flat leg,Fx,Exp,0.785,0.0
+E,29 Palms sand,Flat leg,Fx,Scaling,-1.571,0.0
+E,29 Palms sand,Flat leg,Fx,Scaling,-1.309,1.0
+E,29 Palms sand,Flat leg,Fx,Scaling,-1.047,4.0
+E,29 Palms sand,Flat leg,Fx,Scaling,-0.785,8.0
+E,29 Palms sand,Flat leg,Fx,Scaling,-0.524,11.5
+E,29 Palms sand,Flat leg,Fx,Scaling,-0.262,12.0
+E,29 Palms sand,Flat leg,Fx,Scaling,0.0,10.0
+E,29 Palms sand,Flat leg,Fx,Scaling,0.262,5.0
+E,29 Palms sand,Flat leg,Fx,Scaling,0.524,1.0
+E,29 Palms sand,Flat leg,Fx,Scaling,0.785,0.0
+F,29 Palms sand,Reversed C-leg,Fz,Exp,-1.571,0.0
+F,29 Palms sand,Reversed C-leg,Fz,Exp,-1.309,0.0
+F,29 Palms sand,Reversed C-leg,Fz,Exp,-1.047,1.0
+F,29 Palms sand,Reversed C-leg,Fz,Exp,-0.785,3.5
+F,29 Palms sand,Reversed C-leg,Fz,Exp,-0.524,6.5
+F,29 Palms sand,Reversed C-leg,Fz,Exp,-0.262,8.0
+F,29 Palms sand,Reversed C-leg,Fz,Exp,0.0,7.5
+F,29 Palms sand,Reversed C-leg,Fz,Exp,0.262,5.0
+F,29 Palms sand,Reversed C-leg,Fz,Exp,0.524,2.0
+F,29 Palms sand,Reversed C-leg,Fz,Exp,0.785,-0.5
+F,29 Palms sand,Reversed C-leg,Fz,Exp,1.047,-1.0
+F,29 Palms sand,Reversed C-leg,Fz,Exp,1.309,0.0
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,-1.571,0.0
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,-1.309,1.0
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,-1.047,3.5
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,-0.785,7.5
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,-0.524,11.0
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,-0.262,12.0
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,0.0,10.5
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,0.262,6.5
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,0.524,2.5
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,0.785,-0.5
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,1.047,-1.0
+F,29 Palms sand,Reversed C-leg,Fz,Scaling,1.309,0.0
+F,29 Palms sand,Reversed C-leg,Fx,Exp,-1.571,0.0
+F,29 Palms sand,Reversed C-leg,Fx,Exp,-1.309,0.0
+F,29 Palms sand,Reversed C-leg,Fx,Exp,-1.047,0.5
+F,29 Palms sand,Reversed C-leg,Fx,Exp,-0.785,1.5
+F,29 Palms sand,Reversed C-leg,Fx,Exp,-0.524,3.5
+F,29 Palms sand,Reversed C-leg,Fx,Exp,-0.262,5.5
+F,29 Palms sand,Reversed C-leg,Fx,Exp,0.0,7.0
+F,29 Palms sand,Reversed C-leg,Fx,Exp,0.262,7.5
+F,29 Palms sand,Reversed C-leg,Fx,Exp,0.524,6.0
+F,29 Palms sand,Reversed C-leg,Fx,Exp,0.785,3.5
+F,29 Palms sand,Reversed C-leg,Fx,Exp,1.047,1.0
+F,29 Palms sand,Reversed C-leg,Fx,Exp,1.309,0.0
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,-1.571,0.0
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,-1.309,0.0
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,-1.047,1.0
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,-0.785,3.0
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,-0.524,6.0
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,-0.262,8.5
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,0.0,9.5
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,0.262,9.0
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,0.524,6.5
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,0.785,3.5
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,1.047,1.0
+F,29 Palms sand,Reversed C-leg,Fx,Scaling,1.309,0.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,-1.571,0.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,-1.309,3.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,-1.047,9.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,-0.785,15.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,-0.524,18.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,-0.262,18.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,0.0,12.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,0.262,6.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,0.524,1.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Exp,0.785,0.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,-1.571,0.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,-1.309,5.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,-1.047,13.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,-0.785,21.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,-0.524,25.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,-0.262,23.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,0.0,15.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,0.262,6.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,0.524,1.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fz,Scaling,0.785,0.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,-1.571,0.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,-1.309,0.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,-1.047,3.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,-0.785,7.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,-0.524,10.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,-0.262,12.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,0.0,11.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,0.262,6.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,0.524,2.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Exp,0.785,0.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,-1.571,0.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,-1.309,1.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,-1.047,5.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,-0.785,9.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,-0.524,13.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,-0.262,14.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,0.0,12.5
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,0.262,7.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,0.524,2.0
+G,29 Palms sand (reduced polydispersity),C-leg,Fx,Scaling,0.785,0.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,-1.571,0.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,-1.309,1.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,-1.047,5.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,-0.785,8.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,-0.524,9.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,-0.262,9.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,0.0,6.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,0.262,2.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,0.524,-0.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Exp,0.785,0.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,-1.571,0.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,-1.309,2.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,-1.047,6.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,-0.785,11.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,-0.524,13.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,-0.262,12.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,0.0,8.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,0.262,3.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,0.524,-0.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fz,Scaling,0.785,0.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,-1.571,0.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,-1.309,0.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,-1.047,2.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,-0.785,6.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,-0.524,9.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,-0.262,10.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,0.0,9.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,0.262,5.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,0.524,1.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Exp,0.785,0.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,-1.571,0.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,-1.309,1.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,-1.047,4.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,-0.785,8.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,-0.524,11.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,-0.262,11.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,0.0,9.5
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,0.262,5.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,0.524,1.0
+H,29 Palms sand (reduced polydispersity),Flat leg,Fx,Scaling,0.785,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,-1.571,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,-1.309,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,-1.047,1.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,-0.785,3.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,-0.524,6.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,-0.262,8.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,0.0,7.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,0.262,5.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,0.524,2.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,0.785,-0.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,1.047,-1.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Exp,1.309,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,-1.571,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,-1.309,1.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,-1.047,3.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,-0.785,7.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,-0.524,10.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,-0.262,11.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,0.0,10.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,0.262,6.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,0.524,2.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,0.785,-0.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,1.047,-1.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fz,Scaling,1.309,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,-1.571,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,-1.309,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,-1.047,0.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,-0.785,1.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,-0.524,3.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,-0.262,5.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,0.0,7.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,0.262,7.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,0.524,6.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,0.785,3.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,1.047,1.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Exp,1.309,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,-1.571,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,-1.309,0.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,-1.047,1.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,-0.785,3.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,-0.524,6.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,-0.262,8.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,0.0,9.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,0.262,9.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,0.524,6.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,0.785,3.5
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,1.047,1.0
+I,29 Palms sand (reduced polydispersity),Reversed C-leg,Fx,Scaling,1.309,0.0

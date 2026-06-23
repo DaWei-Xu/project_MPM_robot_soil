@@ -1,0 +1,80 @@
+Existing design: 10 samples from /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results
+  phi range: 22.0–40.1°
+  c range  : 0.55–14.32 kPa
+
+Greedy maximin: selecting 20 new points from 3000 candidates ...
+
+New sample parameters:
+  [010]  phi=20.54°  c=0.419 kPa
+  [011]  phi=34.29°  c=7.425 kPa
+  [012]  phi=25.33°  c=3.331 kPa
+  [013]  phi=41.74°  c=14.253 kPa
+  [014]  phi=41.83°  c=9.358 kPa
+  [015]  phi=41.75°  c=0.333 kPa
+  [016]  phi=30.98°  c=10.373 kPa
+  [017]  phi=20.05°  c=4.814 kPa
+  [018]  phi=25.31°  c=14.900 kPa
+  [019]  phi=30.30°  c=4.305 kPa
+  [020]  phi=36.77°  c=14.993 kPa
+  [021]  phi=25.35°  c=0.123 kPa
+  [022]  phi=20.56°  c=14.979 kPa
+  [023]  phi=27.55°  c=12.252 kPa
+  [024]  phi=37.38°  c=0.042 kPa
+  [025]  phi=20.44°  c=9.412 kPa
+  [026]  phi=37.78°  c=8.767 kPa
+  [027]  phi=34.58°  c=4.517 kPa
+  [028]  phi=40.31°  c=11.772 kPa
+  [029]  phi=41.81°  c=2.760 kPa
+
+Linking 10 existing sample dirs ...
+Full design (30 pts) saved: /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results_30/lhs_design.csv
+
+Running 20 simulations (omega=5.0, settle=2000) ...
+  [sample_010]  phi=20.54°  c=0.419 kPa ...
+    done  flat_Fz_peak=56.381 N
+  [sample_011]  phi=34.29°  c=7.425 kPa ...
+    done  flat_Fz_peak=82.858 N
+  [sample_012]  phi=25.33°  c=3.331 kPa ...
+    done  flat_Fz_peak=75.264 N
+  [sample_013]  phi=41.74°  c=14.253 kPa ...
+    done  flat_Fz_peak=88.380 N
+  [sample_014]  phi=41.83°  c=9.358 kPa ...
+    done  flat_Fz_peak=83.644 N
+  [sample_015]  phi=41.75°  c=0.333 kPa ...
+    done  flat_Fz_peak=65.249 N
+  [sample_016]  phi=30.98°  c=10.373 kPa ...
+    done  flat_Fz_peak=84.362 N
+  [sample_017]  phi=20.05°  c=4.814 kPa ...
+    done  flat_Fz_peak=78.849 N
+  [sample_018]  phi=25.31°  c=14.900 kPa ...
+    done  flat_Fz_peak=87.565 N
+  [sample_019]  phi=30.30°  c=4.305 kPa ...
+    done  flat_Fz_peak=78.899 N
+  [sample_020]  phi=36.77°  c=14.993 kPa ...
+    done  flat_Fz_peak=88.839 N
+  [sample_021]  phi=25.35°  c=0.123 kPa ...
+    done  flat_Fz_peak=55.550 N
+  [sample_022]  phi=20.56°  c=14.979 kPa ...
+    done  flat_Fz_peak=87.085 N
+  [sample_023]  phi=27.55°  c=12.252 kPa ...
+    done  flat_Fz_peak=85.662 N
+  [sample_024]  phi=37.38°  c=0.042 kPa ...
+    done  flat_Fz_peak=61.264 N
+  [sample_025]  phi=20.44°  c=9.412 kPa ...
+    done  flat_Fz_peak=84.731 N
+  [sample_026]  phi=37.78°  c=8.767 kPa ...
+    done  flat_Fz_peak=83.669 N
+  [sample_027]  phi=34.58°  c=4.517 kPa ...
+    done  flat_Fz_peak=79.935 N
+  [sample_028]  phi=40.31°  c=11.772 kPa ...
+    done  flat_Fz_peak=85.423 N
+  [sample_029]  phi=41.81°  c=2.760 kPa ...
+    done  flat_Fz_peak=76.250 N
+
+────────────────────────────────────────────────────────────
+Merged CSV: /Users/zhijie.wang3/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/WSU Data/Research Proposals/###NSF-CAREER/2026 Submission/Prelim Data/MPM-robot-soil-prototype/lhs_results_30/lhs_samples.csv  (30 rows)
+
+Next steps:
+  python3 compute_cleg_indicators.py \
+      --lhs_dir lhs_results_30 --out cleg_results_30 \
+      --syn_obs_dir synthetic_obs --syn_obs_out cleg_results_30/syn_cleg_obs.json
