@@ -1175,6 +1175,45 @@ def main():
     plt.savefig(p1, dpi=180, bbox_inches="tight"); plt.close()
     print(f"  Panel figure: {p1}")
 
+    # Raw MPM force figure: no omega scaling, no experimental overlay.
+    fig_raw, axes_raw = plt.subplots(2, len(legs), figsize=(5.5*len(legs), 8), squeeze=False)
+    fig_raw.suptitle(
+        "Raw MPM Forces — No Omega Scaling\n"
+        f"E = {E_MOD/1e6:.0f} MPa  |  φ = {np.degrees(PHI_RAD):.0f}°  |  ω = {OMEGA:.3g} rad/s",
+        fontsize=10.5, y=1.01)
+
+    for col, leg_type in enumerate(legs):
+        th, Fz3, Fx3 = results[leg_type]
+        clr = colors[leg_type]
+        win = max(1, N_ROT // 80)
+        Fz_raw_sm = np.convolve(Fz3, np.ones(win)/win, mode="same")
+        Fx_raw_sm = np.convolve(Fx3, np.ones(win)/win, mode="same")
+        th_plot = -np.degrees(th)   # Li et al. sign convention
+
+        ax_z = axes_raw[0][col];  ax_x = axes_raw[1][col]
+        ax_z.plot(th_plot, Fz3, color=clr, lw=0.5, alpha=0.18, label="raw")
+        ax_z.plot(th_plot, Fz_raw_sm, color=clr, lw=2.0, label="smoothed raw")
+        ax_z.axhline(0, color="gray", lw=0.6, ls=":"); ax_z.axvline(0, color="gray", lw=0.6, ls=":")
+        ax_z.set_ylabel("Raw lift  $F_z$  (N)"); ax_z.set_title(labels[leg_type])
+        ax_z.legend(fontsize=8, framealpha=0.85); ax_z.grid(True, alpha=0.2, lw=0.5)
+
+        ax_x.plot(th_plot, Fx3, color=clr, lw=0.5, alpha=0.18, label="raw")
+        ax_x.plot(th_plot, Fx_raw_sm, color=clr, lw=2.0, label="smoothed raw")
+        ax_x.axhline(0, color="gray", lw=0.6, ls=":"); ax_x.axvline(0, color="gray", lw=0.6, ls=":")
+        ax_x.set_ylabel("Raw thrust  $F_x$  (N)"); ax_x.set_xlabel("Leg angle  θ  (deg)")
+        ax_x.legend(fontsize=8, framealpha=0.85); ax_x.grid(True, alpha=0.2, lw=0.5)
+
+    for ax_row in axes_raw:
+        for ax in ax_row:
+            ax.set_xlim(np.degrees(TH_ST), np.degrees(TH_EN))
+            ax.set_xticks([-90.0, 90.0])
+            ax.set_xticklabels([r"$-\pi/2$", r"$\pi/2$"])
+
+    plt.tight_layout()
+    p_raw = os.path.join(out_dir, "terradynamics_raw_forces.png")
+    plt.savefig(p_raw, dpi=180, bbox_inches="tight"); plt.close()
+    print(f"  Raw force figure: {p_raw}")
+
     # Combined proposal figure (only when all three legs run)
     if len(legs) == 3:
         fig2, (az, ax2) = plt.subplots(1, 2, figsize=(13, 4.5))
