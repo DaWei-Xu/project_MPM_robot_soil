@@ -34,7 +34,7 @@ parser.add_argument("--dir_base", default="comparison_baseline",
 args = parser.parse_args()
 
 HERE    = os.path.dirname(os.path.abspath(__file__))
-DIG_DIR = os.path.join(HERE, "..", "Liter Data", "Li Science", "Data_digitalized")
+DIG_DIR = os.path.join(HERE, "..", "data", "Liter Data", "Li Science", "Data_digitalized")
 SIM_PY  = os.path.join(HERE, "mpm_terradynamics.py")
 OUT_DIR = os.path.join(HERE, args.out)
 os.makedirs(OUT_DIR, exist_ok=True)

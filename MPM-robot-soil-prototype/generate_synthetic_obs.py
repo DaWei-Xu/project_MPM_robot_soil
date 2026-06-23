@@ -32,7 +32,7 @@ parser.add_argument("--omega", type=float, default=0.2,
 parser.add_argument("--settle",type=int,   default=20000)
 parser.add_argument("--noise", type=float, default=0.0,
                     help="Relative Gaussian noise added to each observable (e.g. 0.05 = 5%%)")
-parser.add_argument("--out",   default="synthetic_obs",
+parser.add_argument("--out",   default="../data/synthetic_data/synthetic_obs",
                     help="Output directory")
 parser.add_argument("--leg",   default="all", choices=["flat","cleg","rcleg","all"])
 args = parser.parse_args()

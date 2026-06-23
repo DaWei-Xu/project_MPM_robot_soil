@@ -1102,7 +1102,7 @@ def main():
 
     # Load digitized Li et al. experimental data (Fig. S12, Yuma Sand)
     _dig_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                            "..", "Liter Data", "Li Science", "Data_digitalized")
+                            "..", "data", "Liter Data", "Li Science", "Data_digitalized")
     _leg_csv = {"flat": "Fig_S12_B.csv", "cleg": "Fig_S12_A.csv", "rcleg": "Fig_S12_C.csv"}
 
     def _load_exp(leg_type):

@@ -60,7 +60,7 @@ args = parser.parse_args()
 
 HERE    = os.path.dirname(os.path.abspath(__file__))
 LHS_DIR = os.path.join(HERE, args.lhs_dir)
-DIG_DIR = os.path.join(HERE, "..", "Liter Data", "Li Science", "Data_digitalized")
+DIG_DIR = os.path.join(HERE, "..", "data", "Liter Data", "Li Science", "Data_digitalized")
 OUT_DIR = os.path.join(HERE, args.out)
 os.makedirs(OUT_DIR, exist_ok=True)
 

@@ -39,7 +39,7 @@ parser.add_argument("--out", default="li_obs", help="Output directory")
 args = parser.parse_args()
 
 HERE    = os.path.dirname(os.path.abspath(__file__))
-DIG_DIR = os.path.join(HERE, "..", "Liter Data", "Li Science", "Data_digitalized")
+DIG_DIR = os.path.join(HERE, "..", "data", "Liter Data", "Li Science", "Data_digitalized")
 OUT_DIR = os.path.join(HERE, args.out)
 os.makedirs(OUT_DIR, exist_ok=True)
 

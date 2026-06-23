@@ -152,7 +152,7 @@ else:
         "  python3 generate_synthetic_obs.py --phi 32 --c 3000\n"
         "Then re-run with:\n"
         "  python3 inverse_gp.py --data lhs_results/lhs_samples.csv "
-        "--obs synthetic_obs/summary.json"
+        "--obs ../data/synthetic_data/synthetic_obs/summary.json"
     )
 
 # Standardise obs with same scalers

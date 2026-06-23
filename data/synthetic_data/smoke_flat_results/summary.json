@@ -1,0 +1,9 @@
+{
+  "phi_deg": 35.0,
+  "c_Pa": 10.0,
+  "E_Pa": 20000000.0,
+  "flat_Fz_peak_N": 790.9390833862723,
+  "flat_Fz_peak_ang_deg": -44.47266836932994,
+  "flat_Fx_peak_N": 1475.946307556246,
+  "flat_Fz_integral_Ndeg": -42583.977878875536
+}
