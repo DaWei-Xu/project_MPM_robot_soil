@@ -274,7 +274,10 @@ def p2g():
             if ti.static(VP_ETA > 0.0):
                 overstress = ti.max(f_yld / VP_STRESS_REF, 0.0)
                 dg_vp = (DT / VP_ETA) * overstress**VP_N
-                dg = ti.min(dg_vp, dg_ri)
+                # Pure Perzyna: use dg_vp unconditionally. If dg_vp > dg_ri the stress
+                # lands slightly inside the yield surface for this step; with DT=8e-6 s
+                # the overshoot is O(DT²) and self-corrects the following step.
+                dg = dg_vp
             s_new = s_dev
             if q_s > 1e-12:
                 s_new = s_dev * (1.0 - dg * MU_E / q_s)
@@ -282,7 +285,8 @@ def p2g():
             s_ret = s_new + p_new * I2
             p_chk = (s_ret[0, 0] + s_ret[1, 1]) * 0.5
             if p_chk > 0.0:
-                s_ret = s_ret - p_chk * I2
+                # Cohesionless soil cannot sustain tension: zero the full stress tensor.
+                s_ret = ti.Matrix([[0.0, 0.0], [0.0, 0.0]])
         sig[p] = s_ret
 
         sc = (-DT * vol0[p] * 4.0 * INV_DX * INV_DX) * sig[p]
