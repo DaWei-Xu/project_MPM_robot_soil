@@ -71,6 +71,13 @@ parser.add_argument("--phi",    type=float, default=35.0,
                     help="Friction angle in degrees (default: 35 for Yuma Sand)")
 parser.add_argument("--c",      type=float, default=10.0,
                     help="Cohesion in Pa (default: 10 Pa for near-cohesionless Yuma Sand)")
+parser.add_argument("--vp_eta", type=float, default=0.0,
+                    help="Perzyna viscoplastic relaxation time in seconds. "
+                         "0 disables rate-dependent Drucker-Prager.")
+parser.add_argument("--vp_n", type=float, default=1.0,
+                    help="Perzyna overstress exponent (used only when --vp_eta > 0).")
+parser.add_argument("--vp_stress_ref", type=float, default=1000.0,
+                    help="Reference stress in Pa for nondimensional Perzyna overstress.")
 parser.add_argument("--summary_out", default="",
                     help="If set, write summary statistics JSON to this path")
 parser.add_argument("--threads", type=int, default=None,
@@ -104,6 +111,9 @@ MU_E    = E_MOD / (2.0 * (1.0 + NU))
 LAM_E   = E_MOD * NU / ((1.0 + NU) * (1.0 - 2.0 * NU))
 ALPHA_DP = 2.0 * np.sin(PHI_RAD) / (np.sqrt(3.0) * (3.0 - np.sin(PHI_RAD)))
 K_C_DP   = 6.0 * C_COH * np.cos(PHI_RAD) / (np.sqrt(3.0) * (3.0 - np.sin(PHI_RAD)))
+VP_ETA = max(float(args.vp_eta), 0.0)
+VP_N = max(float(args.vp_n), 0.0)
+VP_STRESS_REF = max(float(args.vp_stress_ref), 1e-12)
 
 MU_LEG  = 0.35          # Coulomb friction coefficient: leg–sand interface
 
@@ -153,6 +163,10 @@ NP      = nx_bed * ny_bed * PPG
 
 print(f"Domain : {DOMAIN*100:.0f} cm  |  DX = {DX*1000:.2f} mm  |  Grid {GRID_N}^2")
 print(f"Soil   : rho={RHO:.0f} kg/m3, E={E_MOD:.0e} Pa, phi={np.degrees(PHI_RAD):.0f} deg")
+if VP_ETA > 0.0:
+    print(f"Plasticity: Perzyna DP enabled  eta={VP_ETA:.3g} s, n={VP_N:.3g}, stress_ref={VP_STRESS_REF:.3g} Pa")
+else:
+    print("Plasticity: rate-independent Drucker-Prager")
 print(f"NP = {NP}   Settle = {SETTLE}   N_ROT = {N_ROT}   omega = {OMEGA:.2f} rad/s")
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -255,7 +269,12 @@ def p2g():
         s_ret = sig_tr
         if f_yld > 0.0:
             H_dp  = MU_E + ALPHA_DP**2 * (LAM_E + MU_E)
-            dg    = f_yld / ti.max(H_dp, 1e-14)
+            dg_ri = f_yld / ti.max(H_dp, 1e-14)
+            dg    = dg_ri
+            if ti.static(VP_ETA > 0.0):
+                overstress = ti.max(f_yld / VP_STRESS_REF, 0.0)
+                dg_vp = (DT / VP_ETA) * overstress**VP_N
+                dg = ti.min(dg_vp, dg_ri)
             s_new = s_dev
             if q_s > 1e-12:
                 s_new = s_dev * (1.0 - dg * MU_E / q_s)
@@ -1257,6 +1276,10 @@ def main():
         "phi_deg": float(np.degrees(PHI_RAD)),
         "c_Pa":    float(C_COH),
         "E_Pa":    float(E_MOD),
+        "vp_eta_s": float(VP_ETA),
+        "vp_n": float(VP_N),
+        "vp_stress_ref_Pa": float(VP_STRESS_REF),
+        "vp_enabled": bool(VP_ETA > 0.0),
     }
     for leg_type, (th, Fz3, Fx3) in results.items():
         win   = max(1, N_ROT // 80)
@@ -1289,6 +1312,11 @@ def main():
         "hip_h_actual_m": float(hip_h_actual),
         "soil": {"rho": RHO, "E": E_MOD, "nu": NU,
                  "phi_deg": float(np.degrees(PHI_RAD)), "c_Pa": C_COH},
+        "plasticity": {"model": "Perzyna Drucker-Prager" if VP_ETA > 0.0 else "rate-independent Drucker-Prager",
+                       "vp_eta_s": float(VP_ETA),
+                       "vp_n": float(VP_N),
+                       "vp_stress_ref_Pa": float(VP_STRESS_REF),
+                       "vp_enabled": bool(VP_ETA > 0.0)},
         "leg_geometry": {"R_m": LEG_R, "T_m": LEG_T, "W_m": LEG_W, "HIP_H_m": HIP_H},
     }
     lp = os.path.join(out_dir, "terradynamics_log.json")
