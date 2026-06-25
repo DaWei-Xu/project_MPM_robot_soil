@@ -8,7 +8,7 @@ MPM simulation of Li et al. (2013) terradynamics experiment:
   Compares against digitized Li et al. experimental data (Fig. S12 A/B/C).
 
   Rotation convention: CCW (counter-clockwise), matching Li et al. 2013.
-    theta sweeps from +3pi/4 → -3pi/4 (leg enters from right, exits left).
+    theta sweeps from +pi/2 → -pi/2 (leg enters from right, exits left).
 
 Physical parameters (Yuma Sand):
   Leg: max length 2R = 7.62 cm, R = 3.81 cm; width w = 2.54 cm; half-thickness t = 0.32 cm
@@ -148,8 +148,8 @@ LEG_V_TIP = float(2.0 * LEG_R) # tip v-magnitude: 2R = 7.62 cm  (c-leg +, rcleg 
 
 # Rotation sweep
 OMEGA   = args.omega
-TH_ST   = -3.0 * np.pi / 4.0
-TH_EN   =  3.0 * np.pi / 4.0
+TH_ST   = -np.pi / 2.0
+TH_EN   =  np.pi / 2.0
 N_ROT   = int((TH_EN - TH_ST) / (abs(OMEGA) * DT)) + 1
 SETTLE  = args.settle
 SAVE_EVERY  = max(1, N_ROT // 300)
@@ -1013,7 +1013,7 @@ def run_leg(leg_type, hip_y, out_dir, settled_surf=None):
     pv_frame = 0   # sequential frame counter for ParaView file naming
 
     for step in range(N_ROT):
-        theta = TH_EN - OMEGA * step * DT   # CCW: +3π/4 → −3π/4
+        theta = TH_EN - OMEGA * step * DT   # CCW: +π/2 → −π/2
         grf_x[None] = 0.0
         grf_y[None] = 0.0
         clear_grid()
@@ -1189,7 +1189,7 @@ def main():
 
     for ax_row in axes:
         for ax in ax_row:
-            ax.set_xlim(np.degrees(TH_ST), np.degrees(TH_EN))   # -135 → +135
+            ax.set_xlim(np.degrees(TH_ST), np.degrees(TH_EN))   # -90 → +90
             ax.set_xticks([-90.0, 90.0])
             ax.set_xticklabels([r"$-\pi/2$", r"$\pi/2$"])
 
@@ -1262,7 +1262,7 @@ def main():
                          label=f"{lbl} — exp")
         for ax in (az, ax2):
             ax.axhline(0, color="k", lw=0.6, ls=":"); ax.axvline(0, color="k", lw=0.6, ls=":")
-            ax.set_xlim(np.degrees(TH_ST), np.degrees(TH_EN))   # -135 → +135
+            ax.set_xlim(np.degrees(TH_ST), np.degrees(TH_EN))   # -90 → +90
             ax.set_xticks([-90.0, 90.0])
             ax.set_xticklabels([r"$-\pi/2$", r"$\pi/2$"])
             ax.set_xlabel("Leg angle  θ"); ax.grid(True, alpha=0.2, lw=0.5)
